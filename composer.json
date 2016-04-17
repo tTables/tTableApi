@@ -1,0 +1,14 @@
+{
+    "name": "wychowaniecp/t-table-api",
+    "description": "Public transport time schedules - API",
+    "require": {
+        "slim/slim": "^2.0",
+        "gabordemooij/redbean": "^4.3"
+    },
+    "authors": [
+        {
+            "name": "Patryk Wychowaniec",
+            "email": "patryk1303@gmail.com"
+        }
+    ]
+}
