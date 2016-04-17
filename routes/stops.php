@@ -6,9 +6,6 @@ $app->group('/stops', function() use($app) {
   $app->get('/', function() use($app) {
     $stops = get_stops_filter(null);
     $lines_from_stops = array();
-    // foreach($stops as &$stop) {
-      // $stop['lines'] = get_lines_from_stop($stop["id"])[0]['lines'];
-    // }
     
     echo json_encode($stops);
   });
